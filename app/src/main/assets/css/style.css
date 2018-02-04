@@ -1,0 +1,84 @@
+/*Table Content
+==========================
+    # General
+        - Fonts
+    # Links
+    # Headings
+    # Lists
+        - Social-List
+        - Contact-List
+    # Images
+*/
+
+
+/* General
+======================= */
+
+
+body{
+    font-family: 'Cairo', sans-serif;
+    font-size: 15px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    text-transform: capitalize
+}
+.wrapper {
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    height: 100vh
+}
+.wrapper img.logo {
+    position: absolute;
+    left: calc(50% - 250px);
+    top: 20%;
+    width: 500px;
+    z-index: -1;
+    opacity: 0.2
+}
+/* Table
+=================== */
+h3 {
+    margin: 20px auto;
+    text-align: center
+}
+thead th,
+tbody td{
+    min-width: 450px;
+    text-align: center;
+    vertical-align: middle !important;
+    border: 1px solid #34a853 !important;
+}
+.section tbody td {
+    min-width: 400px;
+}
+.section td span{
+    width: 49%
+}
+thead th:first-of-type,
+tbody td:first-of-type{
+    min-width: 50px;
+}
+
+tbody td.red {
+    background-color: rgba(234,67,53,0.8);
+}
+tbody tr td:first-of-type{
+    position: absolute;
+    width: 67px;
+    right: 0
+}
+thead th,
+tbody tr td:first-of-type {
+    background-color: #34a853;
+    color: #FFF;
+    font-weight: bold;
+    vertical-align: middle
+}
+td span {
+    width: 32%;
+    display: inline-block
+    
+}
+
